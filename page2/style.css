@@ -1,0 +1,40 @@
+
+#header h1 {
+	text-align: center;
+	display: block;
+	border-box: box-sizing;
+	color:#696969;
+  font-family: verdana; 
+  font-size:45px; 
+  opacity=.75; 
+  text-align:center}
+
+
+.borders {
+	color: #696969;
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: 0 auto 2.5%;
+	box-shadow: 0 0 5px #ddd;
+	display: inline-box;
+	/*box-sizing: border-box;*/
+
+}
+
+
+  .col-md-6 img {
+  	width: 100%;
+  	height: 400px;
+
+  }
+
+.same-line p {
+	display: inline;
+
+}
+
+.description {
+	width: 100%;
+	height: 400px;
+	overflow: scroll;
+}

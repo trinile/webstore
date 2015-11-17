@@ -5,33 +5,276 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Patagonia: Chile vs Argentina</title>
-    <link rel="stylesheet" href="./css/lib/normalize.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="./css/lib/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="./css/lib/bootstrap-theme.min.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="./css/styles.css" media="screen" title="no title" charset="utf-8">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
   </head>
   
 
   <body>
 
 
-    <div class="container">
-      <h1 class="text-center"> GOOD LUCK
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+      <h1 id="header"> Patagonia: National Parks</h1>
   
-  <div id="Chile">
+  <div id="glaciares" class="park">
+  	<div class="row">
+  		<div class="col-md-6 borders">
+  			<img class="main-image" src="main-patagonia.jpg" title="Glacier" alt="Glacier-Moreno">
+  		</div>
+
+  		<div class="col-md-6 borders">
+  			<div class="description">
+  		 	<h3>Parques Nacionales Los Glaciares</h3>
+  			<h4 class="Location">Location:</h4><p class="same-line"> Austral Andes, Argentina.</p>
+  			<h4 class="About">About:</h4></p class="same-line"> This park shows a scenario of mountains, lakes and woods, including a large portion of the Andes practically under ice and snow to the west, and the arid Patagonian steppe to the east.
+
+Its name refer to the glaciers that are born on the Ice Caps - the largest continental ice extension after Anctartica- which occupies almost half its area. Also known as Patagonic Continental Ice, creates 47 big glaciers, 13 of which flow to the Atlantic. There are also more than 200 smaller glaciers, unconnected to the Ice Caps.</p>
+  			<h4 class="Notables">Notable Landmarks</h4>
+  			<ul>
+  				<li>Glacier Moreno</li>
+  				<li>Mount Fitz Roy</li>
+  			</ul>
+  			<h4 class="Fauna">Fauna</h4>
+  			<ul>
+  				<li>Choique aka Leser Rhea</li> 
+  				<li>Guanacos</li>
+  			</ul>
+  			<h4 class="visit">Best Times to Visit</h4>
+  			<p class="same line"> To be determined</p>
+
+
+  		</div>
+  	</div>
+
 </div>
 
 
 
-<div id="Torres">
+<div id="torres" class="park">
+	  	<div class="row">
+  		<div class="col-md-6 borders">
+  			<img class="main-image" src="main-patagonia(2).jpg" title="Torres" alt="Torres Del Paine">
+  		</div>
+
+  		<div class="col-md-6 borders">
+  			<div class="description">
+  		 	<h3>Torres Del Paine National Park</h3>
+  			<h4 class="Location">Location:</h4><p class="same-line"> Extreme Southern region of Patogonian Chile</p>
+  			<h4 class="About">About:</h4></p class="same-line"> The Torres del Paine (Spanish for "Towers of Paine", "Paine" being the old indigenous name for the colour blue), three immense rock towers give the park its name.</p>
+  			<p class="same-line">Features mountains, lakes, and glaciers.</p>
+  			<h4 class="Notables">Notable Landmarks</h4>
+  			<ul>
+  				<li>Torres Del Paine</li>
+  				<li>Cuernos Del Paine</li>
+  				<li> Grey Glacier</li>
+  				<li> Lago Grey</li>
+  				<li>Lago Peho</li>
+  				<li>Lago Nordenskjold</li>
+  				<li>Lago Sarmiento</li>
+  			</ul>
+
+  			<h4 class="Fauna">Fauna</h4>
+  			<ul>
+  				<li>Guanacos</li> 
+  				<li>Flamingos</li>
+  				<li>Pumas</li>
+  				<li>Nandu</li>
+  			</ul>
+  			<h4 class="visit">Best Times to Visit</h4>
+  			<p class="same line"> November to April (spring and summer in southern himsphere)</p>
+
+
+  		</div>
+  	</div>
 	</div>
 
 
+
+     <h1 id="header"> Patagonia: Landmarks</h1>
+  
+  <div id="moreno" class="landmark">
+    <div class="row">
+      <div class="col-md-6 borders">
+        <img class="main-image" src="main-patagonia.jpg" title="Glacier" alt="Glacier-Moreno">
+      </div>
+
+      <div class="col-md-6 borders">
+        <div class="description">
+        <h3>Glacier Moreno</h3>
+        <h4 class="Location">Location:</h4><p class="same-line"> Parque Nacionales Los Glaciares, southwest Santa Cruz Province, Argentina</p>
+        <h4 class="About">About:</h4></p class="same-line"> Watch glaciers at this stunning centerpiece of the southern Parque Nacional Los Glaciares. This glacier, measures 30km long, 5km wide, and 6 m high. It is exceptional for its constant advance - it creeps forward 2m a day, caussing building-sized icebergs to calve from its face. Some even kayak around the glacier into caves.</p>
+        <h4 class="Notables">Notable features</h4>
+        <ul>
+          <li class="length">Length: 19 mi (30 km)</li>
+          <li class="area">Area: 250 km2 ice formation</li>
+        </ul>
+        <h4 class="Fauna">Fauna</h4>
+        <ul>
+          <li>Choique aka Leser Rhea</li> 
+          <li>Guanacos</li>
+        </ul>
+        <h4 class="visit">Best Times to Visit</h4>
+        <p class="same line"> To be determined</p>
+
+
+      </div>
     </div>
 
+</div>
 
-    <script src="./js/vendor/jquery.js" charset="utf-8"></script>
-    <script src="./js/vendor/bootstrap.js" charset="utf-8"></script>
-    <script src="./js/main.js" charset="utf-8"></script>
+
+
+<div id="fitz" class="landmark">
+      <div class="row">
+      <div class="col-md-6 borders">
+        <img class="main-image" src="main-patagonia(3).jpg" title="Torres" alt="Torres Del Paine">
+      </div>
+
+      <div class="col-md-6 borders">
+        <div class="description">
+        <h3>Mt Fitz Roy</h3>
+        <h4 class="Location">Location:</h4><p class="same-line"> Southern Patagonian Ice Field, on border between Argentina and Chile; near El Chalten Village</p>
+        <h4 class="About">About:</h4></p class="same-line"> Located in the northern part of Parque Nacional Los Glaciares, Mt. Fitz Roy Range's impressive snow-covered peak attracts world class climbers. Despite an average height of 11,290ft, it is considered among the most technically challenging mountains to climb due to its sheer granite faces that require long stretches of difficult technical climbing. Weather can also be inclement and treacherous. It and El Chalten (village) are considered the trekking capital of Argentina."</p>
+        <h4 class="Notables">Notable Features</h4>
+        <ul>
+          <li class="height">Elevation: 11073 ft. </li>
+          <li class="prominence">Prominence: 6,401'</li>
+        </ul>
+
+        <h4 class="Fauna">Fauna</h4>
+        <ul>
+          <li>Guanacos</li> 
+          <li>Flamingos</li>
+          <li>Pumas</li>
+          <li>Nandu</li>
+        </ul>
+        <h4 class="visit">Best Times to Visit</h4>
+        <p class="same line"> December through February (summer months)</p>
+
+
+      </div>
+    </div>
+  </div>
+
+    </div> <!-- //container div --> 
+
+
+<footer>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script>
+
+var park1, park2, landmark1, landmark2;
+
+park1 = {
+  name: "Parques Nacionales Los Glaciares",
+  picture_url: "main-patagonia.jpg",
+  category: "park",
+  fauna: ["guanaco","rhea"]
+  months_to_visit: ["Nov", "Dec", "Jan", "Feb"]
+}
+
+park2 = {
+  name: "Torres Del Paine Park",
+  picture_url:"main-patagonia(2).jpg",
+  category: "park",
+  fauna: ["flamingos", "puma", "Guanacos", "Nandu"],
+  months_to_visit: ["Nov", "Dec", "Jan", "Feb"]
+}
+
+landmark1  = {
+  name: "Glacier Moreno",
+  picture_url: "main-patagaonia.jpg",
+  category: "landmark",
+  fauna: ["guanaco", "rhea"],
+  months_to_visit: ["Nov", "Dec", "Jan", "Feb"]
+}
+
+landmark2 = {
+  name: "Mt Fitz Roy Range",
+  picture_url: "main-patagonia(3).jpg",
+  category: "landmark",
+  fauna: ["flamingos", "puma", "Guanacos", "Nandu"],
+  months_to_visit: ["Dec", "Jan", "Feb"]
+}
+
+var content = ['#glacieres', '#torres', '#moreno','#fitz']
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>
